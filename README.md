@@ -10,4 +10,4 @@
 
 ## Usage
 
-Clone the repo, install the dependencies and run `./cli.ts --help`.
+Clone the repo, install the dependencies (`pnpm install --prod`) and run `./cli.ts --help`.
