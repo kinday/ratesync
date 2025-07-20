@@ -3,7 +3,7 @@
 import * as Tags from "common-tags";
 import Utility from "node:util";
 import { pino as createLogger, levels as logLevels } from "pino";
-import { run } from "./index.ts";
+import { run } from "./lib/index.ts";
 
 const logger = createLogger();
 

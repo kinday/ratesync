@@ -6,5 +6,5 @@
   "compilerOptions": {
     "noEmit": true
   },
-  "files": ["index.ts", "cli.ts"]
+  "files": ["lib/index.ts", "cli.ts"]
 }
