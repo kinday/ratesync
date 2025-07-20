@@ -4,8 +4,27 @@
   "license": "MIT",
   "author": "Leonard Kinday <leonard@kinday.se> (https://leonard.kinday.se/)",
   "type": "module",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
+  "engines": {
+    "node": ">= 22.6.0"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.38",
+    "common-tags": "^1.8.2",
+    "pino": "^9.7.0",
+    "run-applescript": "^7.0.0",
+    "url-template": "^3.1.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node-ts": "^23.6.1",
+    "@tsconfig/node24": "^24.0.1",
+    "@types/common-tags": "^1.8.4",
+    "@types/node": "^24.0.15",
+    "pino-pretty": "^13.0.0",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
 }
